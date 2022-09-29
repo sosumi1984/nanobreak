@@ -8,3 +8,4 @@ The files currently on the page are as followsL: A version of extract2g compiled
 At the moment, there isn't much of use that has been discovered. You can easily manipulate the homescreen of the Nano 6/7 with a simple edit to a plist file, but at the moment, that doesn't have much use. A file within the extracted Nano 6/7 ipsw files contains either 9 or 11 different firmware files, depending on which iPod you are looking at. Out of these 9 or 11, only one is currently openable. All others are encrypted. The only one we have access to is rsrc.fw, which can be mounted as an img file, allowing us to poke through the contents. 
 
 # Extracting Firmware.MSE from the Nano 6/7 IPSW
+Extracting the Firmware.MSE file to view the files contained inside is quite easy, thanks to a tool called Extract2G. The github link can be found [here](https://github.com/win32kbase/extract2g)
